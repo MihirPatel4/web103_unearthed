@@ -1,5 +1,6 @@
 import express from 'express';
-import giftsRouter from './routes/gifts.js'
+import './config/dotenv.js';
+import giftsRouter from './routes/gifts.js';
 
 const PORT = process.env.PORT || 3001;
 const app = express();
